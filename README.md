@@ -12,7 +12,7 @@ Adaption Dataset Challenge 2026 (Hackyard × Adaption Labs) · Team: **Shaon Ban
 | Adaption quality grade | seed **6.0 → 7.4** after Adaption · cleaned set **7.0 → 8.4** · final set **6.0 → 7.4** |
 | AutoScientist | 2 runs, LoRA on 4B models, win rate vs base **70%** (Gemma 3 4B) and **70.4%** (Qwen3.5-4B) |
 | Our own test (290 held-out questions) | yes/no eligibility **57% → 98%**, key amounts/ages **3% → 97%**, invented numbers **83% → 2.7%**, safety reminder **0.3% → 89%** (base Qwen3.5-4B → final system) |
-| Demo | [`demo/`](demo/) — try it offline in one command, plus a GPU notebook and 12 recorded conversations |
+| Demo | [`demo/`](demo/) — offline in one command (`python demo/ask.py "..."`), full model demo on Kaggle: https://www.kaggle.com/code/shaon5775/sahayak-bangla-demo (12 live conversations in [`demo/demo_transcript.md`](demo/demo_transcript.md)) |
 
 ---
 
@@ -196,6 +196,8 @@ More: [`demo/examples.md`](demo/examples.md).
 - The rules reader understands common phrasings only; on new wording it was 84% before fixes. When unsure it should
   ask — but a wrong parse can still give a wrong answer.
 - 5 of 50 hand-checked answers still have a wrong detail (documents, office). Document lists need more training rows.
+- In the 12-question live demo, 2 model answers were weak (a name-mismatch question answered mostly with fraud advice; a wrong description of Rupashree). Comparison questions between two schemes are not in the training data yet.
+- A rules answer lists conditions the person did not mention (for example income) as met, then says the office will check them. It should say "please confirm" instead.
 - Only 20 schemes are covered. Questions about other schemes go to the model, which may know less.
 - Our test set was made by us, with templates related to training; numbers on real user questions will be lower.
 - Adaption's quality grade measures general quality; on our data it preferred long answers, while our users need short
