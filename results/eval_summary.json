@@ -1,0 +1,82 @@
+{
+ "base": {
+  "bengali_answer": 0.641,
+  "safety_reminder": 0.003,
+  "key_number_recall": 0.032,
+  "verdict_acc": 0.304,
+  "unsupported_number_rate": 0.861,
+  "bengali_on_banglish_q": 0.013,
+  "median_words": 243,
+  "chrF": 13.1,
+  "n_verdict": 102
+ },
+ "ours": {
+  "bengali_answer": 1.0,
+  "safety_reminder": 0.748,
+  "key_number_recall": 0.209,
+  "unsupported_number_rate": 0.622,
+  "verdict_acc": 0.5,
+  "bengali_on_banglish_q": 1.0,
+  "median_words": 123,
+  "chrF": 38.1,
+  "n_verdict": 102
+ },
+ "by_kind": {
+  "amount": {
+   "n": 20,
+   "chrF_base": 17.0,
+   "chrF_ours": 33.0
+  },
+  "amount_banglish": {
+   "n": 20,
+   "chrF_base": 0.1,
+   "chrF_ours": 30.2
+  },
+  "docs": {
+   "n": 20,
+   "chrF_base": 19.1,
+   "chrF_ours": 54.7
+  },
+  "docs_banglish": {
+   "n": 20,
+   "chrF_base": 0.3,
+   "chrF_ours": 47.0
+  },
+  "overview": {
+   "n": 20,
+   "chrF_base": 20.0,
+   "chrF_ours": 37.5
+  },
+  "persona": {
+   "n": 102,
+   "chrF_base": 15.6,
+   "chrF_ours": 40.9
+  },
+  "problem": {
+   "n": 8,
+   "chrF_base": 16.5,
+   "chrF_ours": 30.4
+  },
+  "where": {
+   "n": 20,
+   "chrF_base": 15.3,
+   "chrF_ours": 32.4
+  },
+  "where_banglish": {
+   "n": 20,
+   "chrF_base": 2.7,
+   "chrF_ours": 29.0
+  },
+  "who": {
+   "n": 20,
+   "chrF_base": 17.9,
+   "chrF_ours": 33.8
+  },
+  "who_banglish": {
+   "n": 20,
+   "chrF_base": 0.2,
+   "chrF_ours": 30.6
+  }
+ },
+ "n": 290
+}

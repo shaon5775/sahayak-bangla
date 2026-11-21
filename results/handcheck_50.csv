@@ -1,0 +1,51 @@
+﻿row,kind,grade,note,question
+2,problem,partly,"odd extra advice (KYC/PIN, captcha)",লক্ষ্মীর ভান্ডার অনলাইন আবেদনে OTP আসে না।
+6,docs,correct,,কন্যাশ্রী প্রকল্প করতে গেলে সঙ্গে কী কী নিয়ে যাব?
+8,amount,wrong,"wrong amount: 5,000 in 3 instalments, old rule",প্রধানমন্ত্রী মাতৃ বন্দনা যোজনা (কেন্দ্র) থেকে টাকা কত মেলে বলুন তো?
+13,docs_banglish,partly,adds income certificate,sabooj sathi cycle korte kon kon document niye jabo?
+19,persona,wrong,wrong yes/no: eligible told hard,"আমার নাম আশা, বাড়ি ঝাড়গ্রাম। বয়স ২৫ বছর। বাড়িতে গ্যাস নেই, কাঠে রান্না করি। আমার কি প্রধানমন্ত্রী উজ্জ্বলা যোজনা (কেন্দ্র)-এ আবেদন করা উচিত?"
+27,where,partly,misses SDO for towns / Form-P,বার্ধক্য ভাতা (রাজ্য)-এর জন্য কোন অফিসে যেতে হবে?
+30,docs_banglish,wrong,"wrong docs: generic list, misses death certificate",bidhoba bhata korte kon kon document niye jabo?
+40,amount,wrong,"wrong amount: 2,000 instead of 3,000",অন্নপূর্ণা যোজনা থেকে টাকা কত মেলে বলুন তো?
+41,persona,wrong,wrong yes/no: eligible told hard,"আমি কাকলি, নদিয়া জেলায় থাকি। বয়স ৪১ বছর। আমার কি অন্নপূর্ণা যোজনায় আবেদন করা উচিত?"
+44,where,partly,"adds wrong conditions (WB resident, post office)",প্রধানমন্ত্রী জন ধন যোজনা (কেন্দ্র)-এর জন্য কোন অফিসে যেতে হবে?
+47,overview,wrong,wrong facts: income limit + amount mixed,লক্ষ্মীর ভান্ডার নিয়ে কিছু জানেন? একটু বলবেন।
+48,who,partly,"misses 10-yr residence, no-support, income; repeats itself",বার্ধক্য ভাতা (রাজ্য) পাওয়ার শর্তগুলো কী কী?
+49,persona,correct,,"আমি সঞ্জয়, ঝাড়গ্রাম জেলায় থাকি। বয়স ২৩ বছর। আমি কি প্রধানমন্ত্রী জীবন জ্যোতি বিমা যোজনা (কেন্দ্র) পাব?"
+63,docs,correct,,পিএম-কিষাণ (কেন্দ্র) করতে গেলে সঙ্গে কী কী নিয়ে যাব?
+71,who,partly,mixed land-rule details,কৃষক বন্ধু প্রকল্প পাওয়ার শর্তগুলো কী কী?
+79,amount,correct,,প্রধানমন্ত্রী জন ধন যোজনা (কেন্দ্র) থেকে টাকা কত মেলে বলুন তো?
+80,persona,correct,,"আমার নাম ফতেমা, বাড়ি পুরুলিয়া। বয়স ৫০ বছর। আমি কি প্রধানমন্ত্রী সুরক্ষা বিমা যোজনা (কেন্দ্র) পাব?"
+83,where_banglish,wrong,off-topic: Banglish question misread,student credit card er form kothay jama dibo?
+89,amount_banglish,wrong,"wrong amount: says 1,000 widow pension",annapurna yojana te mase ba bochore koto pai?
+100,persona,wrong,"wrong yes/no: eligible told not eligible, wrong facts","আমি বিকাশ, জলপাইগুড়ি জেলায় থাকি। বয়স ৪১ বছর। মাটির কাঁচা বাড়িতে থাকি। আমার কি বাংলার আবাস যোজনায় আবেদন করা উচিত?"
+106,where,partly,extra offices (KVK),কৃষক বন্ধু প্রকল্পের জন্য কোন অফিসে যেতে হবে?
+111,amount_banglish,wrong,wrong amount: no amount given,matri vandana te mase ba bochore koto pai?
+114,overview,wrong,wrong facts: wrong eligibility,জয় জোহার (তফসিলি উপজাতি বার্ধক্য ভাতা) নিয়ে কিছু জানেন? একটু বলবেন।
+135,amount,partly,says scheme name does not exist; 2 instalments (amount right),বাংলার আবাস যোজনা থেকে টাকা কত মেলে বলুন তো?
+137,persona,partly,"right verdict, invents 1-acre minimum","আমি লক্ষ্মী, দক্ষিণ ২৪ পরগনা জেলায় থাকি। বয়স ৩৭ বছর। চাষ করি, নিজের নামে ১ একর জমি। কৃষক বন্ধু প্রকল্পের জন্য আমি কি যোগ্য?"
+144,who_banglish,wrong,off-topic: Banglish misread,student credit card pete ki ki condition?
+147,persona,wrong,wrong yes/no: eligible told hard,"আমি রুমা, মুর্শিদাবাদ জেলায় থাকি। বয়স ৩৫ বছর। আমার কি অন্নপূর্ণা যোজনায় আবেদন করা উচিত?"
+157,problem,wrong,off-target: ignores name-spelling fix,"নামের বানান ভুল, পিএম-কিষাণ (কেন্দ্র) রিজেক্ট হয়ে গেল।"
+170,where_banglish,correct,,banglar awas er form kothay jama dibo?
+171,docs_banglish,correct,,banglar awas korte kon kon document niye jabo?
+198,persona,partly,"right verdict, long repeated list","আমার নাম বিকাশ, বাড়ি কোচবিহার। বয়স ৪২ বছর। চাষ করি, নিজের নামে ০.৪ একর জমি। আমি কি পিএম-কিষাণ (কেন্দ্র) পাব?"
+199,overview,wrong,refused: says has no info,বিধবা ভাতা (রাজ্য) নিয়ে কিছু জানেন? একটু বলবেন।
+201,persona,wrong,"wrong reason: right no, but says SC and ST, age 85","আমার নাম ইমরান, বাড়ি মালদা। বয়স ৭৩ বছর। আমরা তফসিলি উপজাতি (ST)। আমার কি তপশিলি বন্ধু (তফসিলি জাতি বার্ধক্য ভাতা)-এ আবেদন করা উচিত?"
+202,problem,wrong,wrong office: invented website,"বাংলার আবাস যোজনার আবেদন করেছি, স্ট্যাটাস কীভাবে দেখব?"
+204,persona,wrong,wrong yes/no: govt employee told eligible,"আমার নাম রেহানা, বাড়ি হুগলি। বয়স ২১ বছর। আমি সরকারি চাকরি করি। আমি গর্ভবতী, এটা প্রথম সন্তান। প্রধানমন্ত্রী মাতৃ বন্দনা যোজনা (কেন্দ্র)-এর জন্য আমি কি যোগ্য?"
+206,persona,wrong,wrong yes/no: second child told eligible,"আমার নাম মালতী, বাড়ি বাঁকুড়া। বয়স ২২ বছর। আমি গর্ভবতী, আগে একটা সন্তান আছে। প্রধানমন্ত্রী মাতৃ বন্দনা যোজনা (কেন্দ্র)-এর জন্য আমি কি যোগ্য?"
+220,where,wrong,wrong office: BDO instead of school,কন্যাশ্রী প্রকল্পের জন্য কোন অফিসে যেতে হবে?
+221,who_banglish,wrong,off-topic: Banglish misread (fertiliser),matri vandana pete ki ki condition?
+223,docs,wrong,wrong docs: SC certificate for ST scheme,জয় জোহার (তফসিলি উপজাতি বার্ধক্য ভাতা) করতে গেলে সঙ্গে কী কী নিয়ে যাব?
+224,persona,wrong,wrong yes/no: eligible told hard,"আমি নাসরিন, কোচবিহার জেলায় থাকি। বয়স ২৪ বছর। এখনও বিয়ে হয়নি। পরিবারের বছরে আয় মোটামুটি ১,০০,০০০ টাকা। আমার কি রূপশ্রী প্রকল্পে আবেদন করা উচিত?"
+226,amount_banglish,partly,adds life-insurance claim,suraksha bima te mase ba bochore koto pai?
+230,who_banglish,wrong,"wrong amount: invents 25,000 for Jan Dhan",jan dhan account pete ki ki condition?
+231,docs_banglish,correct,,pm kisan korte kon kon document niye jabo?
+253,amount_banglish,wrong,"wrong amount: 25,000 one-time, 1 hectare",krishok bondhu te mase ba bochore koto pai?
+264,where_banglish,wrong,wrong office: says online only,jai johar pension er form kothay jama dibo?
+265,docs,correct,,বার্ধক্য ভাতা (রাজ্য) করতে গেলে সঙ্গে কী কী নিয়ে যাব?
+272,who,partly,misses income-tax rule,অটল পেনশন যোজনা (কেন্দ্র) পাওয়ার শর্তগুলো কী কী?
+274,who_banglish,partly,invents nominee rule,jeevan jyoti bima pete ki ki condition?
+278,overview,correct,,তপশিলি বন্ধু (তফসিলি জাতি বার্ধক্য ভাতা) নিয়ে কিছু জানেন? একটু বলবেন।
+288,where_banglish,wrong,"off-topic: Banglish misread, refuses",taposili bondhu er form kothay jama dibo?

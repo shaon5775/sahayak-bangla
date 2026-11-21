@@ -1,0 +1,47 @@
+{
+ "paths": {
+  "model": 188,
+  "rules": 100,
+  "ask": 2
+ },
+ "base_qwen": {
+  "bengali_answer": 0.934,
+  "safety_reminder": 0.003,
+  "key_number_recall": 0.027,
+  "unsupported_number_rate": 0.828,
+  "verdict_acc": 0.569,
+  "bengali_on_banglish_q": 0.762,
+  "median_words": 135,
+  "chrF": 25.1
+ },
+ "r1_gemma": {
+  "bengali_answer": 1.0,
+  "safety_reminder": 0.748,
+  "key_number_recall": 0.209,
+  "unsupported_number_rate": 0.622,
+  "verdict_acc": 0.5,
+  "bengali_on_banglish_q": 1.0,
+  "median_words": 123,
+  "chrF": 38.1
+ },
+ "r2_model": {
+  "bengali_answer": 1.0,
+  "safety_reminder": 0.831,
+  "key_number_recall": 0.628,
+  "unsupported_number_rate": 0.042,
+  "verdict_acc": 0.49,
+  "bengali_on_banglish_q": 1.0,
+  "median_words": 55,
+  "chrF": 69.6
+ },
+ "r2_plus_rules": {
+  "bengali_answer": 1.0,
+  "safety_reminder": 0.89,
+  "key_number_recall": 0.966,
+  "unsupported_number_rate": 0.027,
+  "verdict_acc": 0.98,
+  "bengali_on_banglish_q": 1.0,
+  "median_words": 59,
+  "chrF": 85.1
+ }
+}
