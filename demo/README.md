@@ -15,12 +15,14 @@ checked fact card for the scheme instead.
 
 ## 2. Full system with the fine-tuned model (Kaggle GPU)
 
-Public Kaggle notebook: **KAGGLE_DEMO_URL**
+Public Kaggle notebook: **https://www.kaggle.com/code/shaon5775/sahayak-bangla-demo**
 
 It loads Qwen3.5-4B + our AutoScientist LoRA (round 2), wires it to the rules router and answers 12 new questions,
 showing the base model's answer next to ours. Its output contains:
 - `demo_transcript.md` — the 12 conversations (also copied here: [`demo_transcript.md`](demo_transcript.md))
 - `sahayak_bangla_lora/` — the adapter, ready for `PeftModel.from_pretrained(Qwen3.5-4B, ...)`
+
+Our check of the 12 live answers: 10 good, 2 weak (#9, #11) — see the note at the top of the transcript.
 
 Code: [`sahayak_demo_kaggle.py`](sahayak_demo_kaggle.py). In the notebook, call `ask('আপনার প্রশ্ন')`.
 
