@@ -1,0 +1,6 @@
+train rows 1413  unique prompts 1413
+test rows 290 (removed 21 overlapping)
+train kinds Counter({'persona': 763, 'problem': 166, 'overview': 80, 'docs': 60, 'who': 60, 'amount': 60, 'where': 60, 'docs_banglish': 40, 'amount_banglish': 40, 'where_banglish': 40, 'who_banglish': 40, 'unknown': 4})
+test kinds Counter({'persona': 102, 'overview': 20, 'where': 20, 'amount': 20, 'docs': 20, 'docs_banglish': 20, 'where_banglish': 20, 'amount_banglish': 20, 'who': 20, 'who_banglish': 20, 'problem': 8})
+persona verdicts train Counter({'yes': 446, 'no': 317})
+avg answer chars 433

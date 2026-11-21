@@ -1,0 +1,8 @@
+ROUND 2 rows: 5196  by source: {'seed_verified': 4289, 'adaption_general': 668, 'adaption_scheme': 159, 'adaption_refusal': 80}
+verified share: 83%
+verified kinds: {'docs': 120, 'persona': 2547, 'amount': 120, 'problem': 238, 'docs_banglish': 200, 'who_banglish': 200, 'where_banglish': 200, 'where': 120, 'who': 120, 'amount_banglish': 200, 'overview_banglish': 80, 'overview': 140, 'unknown': 4}
+persona verdicts: {'yes': 1461, 'no': 1086}
+Adaption rows dropped: {'adaption_general / answer > 250 words': 1670, 'adaption_scheme / answer > 250 words': 2142, 'adaption_general / foreign comparison': 21, 'adaption_refusal / foreign comparison': 6, 'adaption_refusal / answer > 250 words': 11, 'adaption_scheme / foreign comparison': 3}
+HTML tags left: 0
+training prompts equal to a test prompt: 0
+answer words median: 72

@@ -1,0 +1,23 @@
+INPUT rows: {'domain-specific': 6120, 'similar': 6141, 'domain-diversity': 6147, 'none': 1405}
+DROPPED:
+  domain-diversity  answer > 450 words           1580
+  domain-diversity  bangladesh                   15
+  domain-diversity  checklist < 80%              3162
+  domain-diversity  politics                     47
+  domain-diversity  unsafe                       155
+  domain-specific   answer > 450 words           1411
+  domain-specific   bangladesh                   14
+  domain-specific   checklist < 80%              3209
+  domain-specific   politics                     90
+  domain-specific   unsafe                       54
+  domain-specific   unverified scheme numbers    2
+  similar           answer > 550 words           840
+  similar           bangladesh                   606
+  similar           checklist < 100%             828
+  similar           known wrong fact             31
+  similar           politics                     110
+  similar           unknown scheme with amounts  871
+  similar           unverified numbers           551
+KEPT: 6181 rows -> {'adaption_general': 2359, 'adaption_scheme': 2304, 'seed_verified': 1405, 'adaption_refusal': 113}
+answer words median 303, p90 453
+Bengali-script answers (>=50%): 5796 / 6181
